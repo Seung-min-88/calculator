@@ -46,9 +46,7 @@ public class App {
                 } else if (outText.equals("yes")) {
                     continue;
                 }
-            } catch (ArithmeticException e) {
-                System.out.println(e.getMessage());
-            } catch (IllegalArgumentException e) {
+            } catch (ArithmeticException | IllegalArgumentException e) {
                 System.out.println(e.getMessage());
             }
         }
