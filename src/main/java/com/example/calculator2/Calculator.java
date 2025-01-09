@@ -20,7 +20,6 @@ public class Calculator {
         if (index >= 0 && index < record.size()) {
             this.record.remove(index);
         }
-        
     }
 
     // 계산 식
